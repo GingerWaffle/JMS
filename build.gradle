@@ -1,6 +1,6 @@
 apply plugin: 'java'
 jar {
-    baseName = 'jms-example'
+    baseName = 'jms-hot_deployment'
     version =  '0.1.0'
 }
 task wrapper(type: Wrapper) {
