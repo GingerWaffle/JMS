@@ -1,0 +1,8 @@
+apply plugin: 'java'
+jar {
+    baseName = 'jms-example'
+    version =  '0.1.0'
+}
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.3'
+}
